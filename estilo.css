@@ -1,0 +1,89 @@
+body{
+  background:linear-gradient(to bottom, #FF00FF, #CC66FF);
+  color:white;
+  font-family: 'sora', sans-serif;
+}
+
+h1{
+  font-size:4em;
+  text-align:center;
+  font-family: 'sora', sans-serif;
+  font-weight:300;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+
+}
+
+img{
+  width:250px;
+  margin:auto;
+  transition: all 0.2s;
+  display:block;
+  border-radius: 30%;
+}
+#flower{
+  width:250px;
+  margin:auto;
+}
+#flower:hover{
+    border: 4px solid pink; /* Borde punteado rosa  */
+    border-radius: 10px;    /* Opcional: Redondea las esquinas  */
+    cursor: pointer;
+    box-shadow: 0 0 10px 5px rgba(255, 105, 180, 0.7);  /* Sombra rosa suave  */
+    transition: all 2s;
+
+}
+#hint{
+  text-align:center;
+  padding:25px;
+  margin:auto;
+}
+#container{
+  margin-top:auto;
+  margin-bottom:auto;
+}
+#hideaway{
+  display:none;
+  width:700px;
+  margin:auto;
+  text-align:left;
+  transition: all 1s;
+}
+a{
+  color:white;
+}
+a:link {
+  text-decoration:none;
+  color:whie;
+}
+#hide{
+  text-align:center;
+  border-style:solid;
+  border-color:white;
+  border-radius: 5px;
+  border-width:2px;
+}
+#sign{
+  /* float:left; */
+  width:200px;
+  padding:20px;
+  display:inline-block;
+}
+
+h2 {
+    font-size:3em;
+    text-align:center;
+    font-family: 'sora', sans-serif;
+    font-weight: 200;
+    color: #fcebe9;
+    text-shadow: 1px 1px 1px #f8c8dc, -1px -1px 1px #ffffff;
+
+}
+
+h3 {
+    font-size:3em;
+    text-align:center;
+    font-family: 'sora', sans-serif;
+    font-weight:400;
+    color: #ffffff;
+    text-shadow: 0 0 5px hotpink;
+}
